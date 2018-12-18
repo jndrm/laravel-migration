@@ -1,0 +1,17 @@
+{
+    "name": "drmer/laravel-migration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Donald",
+            "email": "donald@drmer.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Drmer\\Laravel\\Migration\\": "src/"
+        }
+    },
+    "require": {}
+}
