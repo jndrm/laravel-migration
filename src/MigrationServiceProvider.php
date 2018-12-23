@@ -4,6 +4,7 @@ namespace Drmer\Laravel\Migration;
 
 use Illuminate\Support\ServiceProvider;
 use Drmer\Laravel\Migration\Support\StrMigration;
+use Drmer\Laravel\Migration\Routing\UrlGeneratorMigration;
 use Drmer\Laravel\Migration\Foundation\Testing\TestResponseMigration;
 
 class MigrationServiceProvider extends ServiceProvider
@@ -27,5 +28,6 @@ class MigrationServiceProvider extends ServiceProvider
     {
         StrMigration::run();
         TestResponseMigration::run();
+        UrlGeneratorMigration::run();
     }
 }
