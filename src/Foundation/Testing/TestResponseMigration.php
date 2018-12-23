@@ -10,7 +10,7 @@ use Drmer\Laravel\Migration\Foundation\Testing\Constraints\SeeInOrder;
 
 class TestResponseMigration
 {
-    public static function migrate()
+    public static function run()
     {
         /**
          * Assert that the response has a 200 status code.

@@ -10,7 +10,7 @@ use Ramsey\Uuid\Codec\TimestampFirstCombCodec;
 
 class StrMigration
 {
-    public static function migrate()
+    public static function run()
     {
         Str::macro('uuid', function () {
             return Uuid::uuid4();

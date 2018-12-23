@@ -25,7 +25,7 @@ class MigrationServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        StrMigration::migrate();
-        TestResponseMigration::migrate();
+        StrMigration::run();
+        TestResponseMigration::run();
     }
 }
